@@ -5,7 +5,8 @@ import javax.interceptor.Interceptor;
 import javax.interceptor.InvocationContext;
 
 @Interceptor
-@AnnotationWithInit(init = true)
+@AnnotationWithInit
+@AnnotationSecond
 public class MyInterceptor {
 
     @AroundInvoke
